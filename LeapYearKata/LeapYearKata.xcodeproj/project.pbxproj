@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8211DF3222297B6B002EBD18 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DF3122297B6B002EBD18 /* main.swift */; };
 		8211DF3F22297C08002EBD18 /* LeapYearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DF3E22297C08002EBD18 /* LeapYearTests.swift */; };
+		8211DF4522297CDE002EBD18 /* LeapYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DF4422297CDE002EBD18 /* LeapYear.swift */; };
+		8211DF4622297CDE002EBD18 /* LeapYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DF4422297CDE002EBD18 /* LeapYear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,7 @@
 		8211DF3C22297C08002EBD18 /* LeapYearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapYearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8211DF3E22297C08002EBD18 /* LeapYearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearTests.swift; sourceTree = "<group>"; };
 		8211DF4022297C08002EBD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8211DF4422297CDE002EBD18 /* LeapYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				8211DF3122297B6B002EBD18 /* main.swift */,
+				8211DF4422297CDE002EBD18 /* LeapYear.swift */,
 			);
 			path = LeapYearKata;
 			sourceTree = "<group>";
@@ -172,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8211DF4522297CDE002EBD18 /* LeapYear.swift in Sources */,
 				8211DF3222297B6B002EBD18 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8211DF4622297CDE002EBD18 /* LeapYear.swift in Sources */,
 				8211DF3F22297C08002EBD18 /* LeapYearTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
