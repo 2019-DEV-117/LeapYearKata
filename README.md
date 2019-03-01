@@ -13,7 +13,6 @@ As a user, I want to know if a year is a leap year, So that I can plan for an ex
 
 ## Requirements
 - Latest Xcode version 10.1
-- You can download the latest Xcode from the Mac App store.
 - Mac OS High Sierra
 
 ## Installation
@@ -25,9 +24,9 @@ As a user, I want to know if a year is a leap year, So that I can plan for an ex
 ## Usage
 - This is a command line tool project template which prints the results in the Xcode console
 - Go to main.swift file where you can give your desired input  in the variable inputYear
-- Run the Xcode (Cmd+R) project to see the reasult in the console.
-- Example let inputyear = 2019
-Console Output
+- Run the Xcode (Cmd+R) project to see the result in the console.
+- Example let inputYear = 2019
+- Console Output
 
 ```bash
 2019 is not a Leap year
