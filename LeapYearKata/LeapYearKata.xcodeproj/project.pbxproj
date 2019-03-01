@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8211DF3222297B6B002EBD18 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DF3122297B6B002EBD18 /* main.swift */; };
+		8211DF3F22297C08002EBD18 /* LeapYearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DF3E22297C08002EBD18 /* LeapYearTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,20 @@
 /* Begin PBXFileReference section */
 		8211DF2E22297B6B002EBD18 /* LeapYearKata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeapYearKata; sourceTree = BUILT_PRODUCTS_DIR; };
 		8211DF3122297B6B002EBD18 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8211DF3C22297C08002EBD18 /* LeapYearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapYearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211DF3E22297C08002EBD18 /* LeapYearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearTests.swift; sourceTree = "<group>"; };
+		8211DF4022297C08002EBD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8211DF2B22297B6B002EBD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DF3922297C07002EBD18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				8211DF3022297B6B002EBD18 /* LeapYearKata */,
+				8211DF3D22297C08002EBD18 /* LeapYearTests */,
 				8211DF2F22297B6B002EBD18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8211DF2E22297B6B002EBD18 /* LeapYearKata */,
+				8211DF3C22297C08002EBD18 /* LeapYearTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +73,15 @@
 				8211DF3122297B6B002EBD18 /* main.swift */,
 			);
 			path = LeapYearKata;
+			sourceTree = "<group>";
+		};
+		8211DF3D22297C08002EBD18 /* LeapYearTests */ = {
+			isa = PBXGroup;
+			children = (
+				8211DF3E22297C08002EBD18 /* LeapYearTests.swift */,
+				8211DF4022297C08002EBD18 /* Info.plist */,
+			);
+			path = LeapYearTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +104,23 @@
 			productReference = 8211DF2E22297B6B002EBD18 /* LeapYearKata */;
 			productType = "com.apple.product-type.tool";
 		};
+		8211DF3B22297C07002EBD18 /* LeapYearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211DF4122297C08002EBD18 /* Build configuration list for PBXNativeTarget "LeapYearTests" */;
+			buildPhases = (
+				8211DF3822297C07002EBD18 /* Sources */,
+				8211DF3922297C07002EBD18 /* Frameworks */,
+				8211DF3A22297C07002EBD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeapYearTests;
+			productName = LeapYearTests;
+			productReference = 8211DF3C22297C08002EBD18 /* LeapYearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +132,9 @@
 				ORGANIZATIONNAME = "DEV-117";
 				TargetAttributes = {
 					8211DF2D22297B6B002EBD18 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8211DF3B22297C07002EBD18 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -110,9 +152,20 @@
 			projectRoot = "";
 			targets = (
 				8211DF2D22297B6B002EBD18 /* LeapYearKata */,
+				8211DF3B22297C07002EBD18 /* LeapYearTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8211DF3A22297C07002EBD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8211DF2A22297B6B002EBD18 /* Sources */ = {
@@ -120,6 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8211DF3222297B6B002EBD18 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DF3822297C07002EBD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211DF3F22297C08002EBD18 /* LeapYearTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +320,40 @@
 			};
 			name = Release;
 		};
+		8211DF4222297C08002EBD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeapYearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DEV-117.LeapYearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		8211DF4322297C08002EBD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeapYearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DEV-117.LeapYearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -276,6 +371,15 @@
 			buildConfigurations = (
 				8211DF3622297B6B002EBD18 /* Debug */,
 				8211DF3722297B6B002EBD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211DF4122297C08002EBD18 /* Build configuration list for PBXNativeTarget "LeapYearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DF4222297C08002EBD18 /* Debug */,
+				8211DF4322297C08002EBD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
