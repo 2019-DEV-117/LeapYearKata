@@ -14,4 +14,8 @@ class LeapYearTests: XCTestCase {
         XCTAssertTrue(LeapYear.isLeapYear(year:2012))
     }
     
+    func testAllYearNotDivisibleBy4AreNotLeapYears()  {
+        XCTAssertFalse(LeapYear.isLeapYear(year:2018))
+    }
+    
 }
